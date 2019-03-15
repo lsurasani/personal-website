@@ -2,6 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://lsurasani.github.io/personal-website",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
