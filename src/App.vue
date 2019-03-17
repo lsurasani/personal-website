@@ -11,9 +11,7 @@
                 <Writing />
             </vs-tab>
             <vs-tab vs-label="Resume">
-                <div>
-
-                </div>
+                <Resume />
             </vs-tab>
         </vs-tabs>
         <div class="footer">
@@ -30,6 +28,7 @@
 import Profile from './components/Profile.vue'
 import Speaking from './components/Speaking.vue'
 import Writing from './components/Writing.vue'
+import Resume from './components/Resume.vue'
 
 export default {
   name: 'app',
@@ -37,6 +36,7 @@ export default {
     Profile,
     Speaking,
     Writing,
+    Resume
   },
   props: {
 
@@ -54,6 +54,7 @@ export default {
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
+        height: 100%;
     }
 
     button {
@@ -66,11 +67,19 @@ export default {
     
     .con-slot-tabs {
         margin-top: 50px;
-        padding-bottom: 50px;
+        height: calc(100% - 100px);
+    }
+
+    .vs-tabs {
+        height: calc(100% - 75px);
     }
 
     .vs-tabs--li {
         padding: 0 15px;
+    }
+
+    .vs-tabs--content {
+        height: 100%;
     }
 
     .footer {
