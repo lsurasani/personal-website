@@ -1,11 +1,9 @@
 <template>
     <div class="container">
         <div class="download">
-            <a class="download-button-text" href="./../../assets/Surasani_Resume_2019.pdf" download="lekhasurasani_resume.pdf" target="_blank">
-                <vs-button type="filled" class="download-button" color="#2c3e50" icon="save_alt">
-                    Download as PDF
-                </vs-button>
-            </a>
+            <vs-button type="filled" class="download-button" color="#2c3e50" icon="save_alt" href="https://www.dropbox.com/s/y6pawe1y9hs0056/Surasani_Resume_2019.pdf?dl=0" target="_blank">
+                Download as PDF
+            </vs-button>
         </div>
         <br>
         <div class="header">
