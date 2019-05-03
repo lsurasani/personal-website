@@ -11,7 +11,7 @@
             <h5><a href="mailto:lesurasani@gmail.com">lesurasani@gmail.com</a></h5>
             <h5>
                 <a href="https://github.com/lsurasani" target="_blank">github.com/lsurasani</a> &#9679; 
-                <a href="https://www.linkedin.com/in/lekha-surasani/" target="_blank">linkedin.com/in/lekha-surasani</a> &#9679
+                <a href="https://www.linkedin.com/in/lekha-surasani/" target="_blank">linkedin.com/in/lekha-surasani</a> &#9679;
                 <a href="https://lekhasurasani.com" target="_blank">lekhasurasani.com</a>
             </h5>
         </div>
