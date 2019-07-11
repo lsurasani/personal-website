@@ -14,6 +14,10 @@ npm run serve
 ```
 npm run build
 ```
+### Deploy
+```
+npm run deploy
+```
 
 ### Run your tests
 ```
