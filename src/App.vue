@@ -13,6 +13,9 @@
             <vs-tab vs-label="Resume">
                 <Resume />
             </vs-tab>
+            <vs-tab vs-label="Blog">
+                <Blog />
+            </vs-tab>
         </vs-tabs>
         <div class="footer">
             <a href="https://github.com/lsurasani" target="_blank"><img src="./assets/github_blue_logo.png" alt="Github" height="30"></a>
@@ -29,6 +32,7 @@ import Profile from './components/Profile.vue'
 import Speaking from './components/Speaking.vue'
 import Writing from './components/Writing.vue'
 import Resume from './components/Resume.vue'
+import Blog from './components/Blog.vue'
 
 export default {
   name: 'app',
@@ -36,7 +40,8 @@ export default {
     Profile,
     Speaking,
     Writing,
-    Resume
+    Resume,
+    Blog,
   },
   props: {
 
