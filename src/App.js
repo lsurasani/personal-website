@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Button, Sidebar, Segment, Menu, Icon, Header, Image } from 'semantic-ui-react';
-import Home from './Home';
-import Writing from './Writing';
-import Speaking from './Speaking';
-import Resume from './Resume';
-import Blog from './Blog';
-import Post from './Post';
+import { Button, Sidebar, Segment, Menu, Icon } from 'semantic-ui-react';
+import Home from './components/Home';
+import Writing from './components/Writing';
+import Speaking from './components/Speaking';
+import Resume from './components/Resume';
+import Blog from './components/Blog';
+import Post from './components/Post';
 
 const App = () => {
   const [visible, setVisible] = useState(false);

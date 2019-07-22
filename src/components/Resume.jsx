@@ -3,7 +3,7 @@ import { Button } from 'semantic-ui-react';
 
 const Resume = () => {
   return  (
-    <div className="resume-container">
+    <div className="class-container">
       <div className="download">
         <Button className="download-button" color="#2c3e50" icon="save_alt" href="https://www.dropbox.com/s/y6pawe1y9hs0056/Surasani_Resume_2019.pdf?dl=0" target="_blank">
             Download as PDF
@@ -14,9 +14,9 @@ const Resume = () => {
         <h2 className="center">LEKHA SURASANI</h2>
         <h5 className="center"><a href="mailto:lesurasani@gmail.com">lesurasani@gmail.com</a></h5>
         <h5 className="center">
-            <a href="https://github.com/lsurasani" target="_blank">github.com/lsurasani</a> &#9679; 
-            <a href="https://www.linkedin.com/in/lekha-surasani/" target="_blank">linkedin.com/in/lekha-surasani</a> &#9679;
-            <a href="https://lekhasurasani.com" target="_blank">lekhasurasani.com</a>
+            <a href="https://github.com/lsurasani" target="_blank" rel="noopener noreferrer">github.com/lsurasani</a> &#9679; 
+            <a href="https://www.linkedin.com/in/lekha-surasani/" target="_blank" rel="noopener noreferrer">linkedin.com/in/lekha-surasani</a> &#9679;
+            <a href="https://lekhasurasani.com" target="_blank" rel="noopener noreferrer">lekhasurasani.com</a>
         </h5>
       </div>
       <hr />
@@ -57,7 +57,6 @@ const Resume = () => {
         </div>
         <br />
         <div className="item">
-          <h5 className="company-name"></h5>
           <div className="company-name">
             <h5 className="left">Derm for Primary Care - Atlanta, GA</h5>
             <h5 className="right">Jan. 2018 – May 2018</h5>
