@@ -48,8 +48,9 @@
   border: none;
 }
 
-.icons > i {
-  padding-top: 5%;
+.icons > a {
+  vertical-align: text-bottom;
+  color: white;
 }
 
 .header-name {

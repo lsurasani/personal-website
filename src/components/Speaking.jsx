@@ -41,9 +41,12 @@ const items = [
           </div>
   },
   {
-    header: 'Advanced Topics in React - WeRockITConf, May 2019',
-    description: "Learn more about Hooks, Suspense, Context, and HOC's!",
+    header: 'Creating a PWA Workshop - WeRockITConf, May 2019',
+    description: "What's a PWA, how do you make one, should you make one?",
     extra:  <div>
+              <a href="https://github.com/lsurasani/react-pwa-example" target="_blank" rel="noopener noreferrer">
+                <Button>Code</Button>
+              </a>
               <a href="https://docs.google.com/presentation/d/1qjkEgEp9Upbdw-Q5tTLCmum4rmruoAW7Q5f63kSA__o/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button>Presentation</Button>
               </a>

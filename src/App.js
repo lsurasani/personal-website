@@ -30,10 +30,18 @@ const App = () => {
               <p className="header-name">Lekha Surasani</p>
             </div>
             <div className="icons two wide column">
-              <Icon name='twitter' />
-              <Icon name='linkedin' />
-              <Icon name='github' />
-              <Icon name='mail' />
+              <a href="https://github.com/lsurasani/" target="_blank" rel="noopener noreferrer">
+                <Icon name='github' />
+              </a>
+              <a href="https://www.linkedin.com/in/lekha-surasani/" target="_blank" rel="noopener noreferrer">
+                <Icon name='linkedin' />
+              </a>
+              <a href="mailto:lesurasani@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Icon name='mail' />
+              </a>
+              <a href="https://twitter.com/lekhasurasani" target="_blank" rel="noopener noreferrer">
+                <Icon name='twitter' />
+              </a>
             </div>
           </div>
         </header>
