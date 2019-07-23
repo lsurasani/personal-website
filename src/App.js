@@ -22,7 +22,7 @@ const App = () => {
     <Router>
       <div className="App">
         <header className="App-header">
-          <div className="ui grid">
+          <div className="ui stackable grid">
             <div className="two wide column">
               <Button className="menu-button" onClick={() => setVisible(!visible)}>Menu</Button>
             </div>

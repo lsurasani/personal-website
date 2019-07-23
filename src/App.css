@@ -107,10 +107,15 @@ h1, h2, h3, h4, h5, ul {
 @media screen and (max-width: 850px) {
   .App-header {
     padding: 15px;
+    height: auto;
   }
 
   .resume-container {
     padding: 0;
+  }
+
+  .class-container {
+    padding: 0 7%;
   }
 }
 
