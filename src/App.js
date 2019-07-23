@@ -11,6 +11,12 @@ import Post from './components/Post';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
+  const [activeItem, setActive] = useState('home');
+
+  const handleItemClick = (name) => {
+    setActive(name)
+    setVisible(false)
+  }
 
   return (
     <Router>
@@ -43,31 +49,31 @@ const App = () => {
               width='thin'
             >
               <Link to="/">
-                <Menu.Item as='a' onClick={() => setVisible(!visible)}>
+                <Menu.Item as='a' active={activeItem === 'home'} onClick={() => {handleItemClick('home')}}>
                   <Icon name='home' />
                   Home
                 </Menu.Item>
               </Link>
               <Link to="/writing">
-                <Menu.Item as='a' onClick={() => setVisible(!visible)}>
+                <Menu.Item as='a' active={activeItem === 'writing'} onClick={() => {handleItemClick('writing')}}>
                   <Icon name='write' />
                   Writing
                 </Menu.Item>
               </Link>
               <Link to="/speaking">
-                <Menu.Item as='a' onClick={() => setVisible(!visible)}>
+                <Menu.Item as='a' active={activeItem === 'speaking'} onClick={() => {handleItemClick('speaking')}}>
                   <Icon name='microphone' />
                   Speaking
                 </Menu.Item>
               </Link>
               <Link to="/resume">
-                <Menu.Item as='a' onClick={() => setVisible(!visible)}>
+                <Menu.Item as='a' active={activeItem === 'resume'} onClick={() => {handleItemClick('resume')}}>
                   <Icon name='file' />
                   Resume
                 </Menu.Item>
               </Link>
               <Link to="/blog">
-                <Menu.Item as='a' onClick={() => setVisible(!visible)}>
+                <Menu.Item as='a' active={activeItem === 'blog'} onClick={() => {handleItemClick('blog')}}>
                   <Icon name='sticky note' />
                   Blog
                 </Menu.Item>
