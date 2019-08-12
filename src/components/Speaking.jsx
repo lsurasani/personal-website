@@ -1,8 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'semantic-ui-react'
 
-
-
 const items = [
   {
     header: 'React Hooks',
