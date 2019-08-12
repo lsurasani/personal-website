@@ -17,7 +17,7 @@ const Home = () => {
             <br />
             <p>
               In my spare time, I like <a href="https://medium.com/@lesurasani" target="_blank" rel="noopener noreferrer">writing</a>,
-              <a href="https://www.goodreads.com/user/show/64315226-lekha-surasani" target="_blank" rel="noopener noreferrer">reading</a>,
+              <a href="https://www.goodreads.com/user/show/64315226-lekha-surasani" target="_blank" rel="noopener noreferrer"> reading</a>,
               speaking, and watching TV. I have a two year old cat named Violet, and I love exploring Atlanta.
             </p>
             <br />
