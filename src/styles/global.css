@@ -1,0 +1,47 @@
+.menu-header {
+  height: 70px;
+  font-size: 20px;
+  background-color: #282c34;
+  padding: 15px 0px;
+  color: white;
+  text-align: center;
+}
+
+.icons {
+  line-height: 2em;
+}
+
+.icons > a {
+  color: white;
+}
+
+.icons > a:hover {
+  color: gray;
+}
+
+.container {
+  text-align: left;
+  height: calc(100vh - 70px);
+}
+
+.lekha-profile {
+  border-radius: 100%;
+  max-width: 275px;
+}
+
+.profile-description {
+  width: 90%;
+  margin: 0 auto;
+}
+.profile-description > p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.index-page {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
