@@ -6,17 +6,17 @@ export default ({ data }) => (
   <Layout>
     <div>
       <h1>
-        Blog Posts
+        My Blog
       </h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
+        <div key={node.id} className="post-excerpts">
           <Link
             to={node.fields.slug}
           >
             <h3>
               {node.frontmatter.title}{" "}
-              <span>
+              <span style={{ color: 'grey', fontSize: 14 }}>
                 — {node.frontmatter.date}
               </span>
             </h3>

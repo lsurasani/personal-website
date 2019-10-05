@@ -45,3 +45,16 @@
 .centered {
   text-align: center;
 }
+
+.post-excerpts {
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.post-content {
+  font-size: 18px;
+}
+
+.italic {
+  font-style: italic;
+}
